@@ -1,0 +1,588 @@
+@font-face {
+    font-family: 'Mont 200';
+    src: url(./fonts/font/Mont-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Mont 300';
+    src: url(./fonts/font/Mont-Light.ttf)
+}
+
+@font-face {
+    font-family: 'Mont 400';
+    src: url(./fonts/font/Mont-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Mont italic';
+    src: url(./fonts/font/Mont-RegularItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Mont 500';
+    src: url(./fonts/font/Mont-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Mont 600';
+    src: url(./fonts/font/Mont-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Mont 700';
+    src: url(./fonts/font/Mont-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lighthaus';
+    src: url(./fonts/font2/Lighthaus.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.background {
+    width: 100%;
+    height: 465px;
+    background-image: url(./img/бэкграунд.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title {
+    width: 529px;
+    height: 37px;
+    margin: 79px auto 40px;
+    font-family: 'Lighthaus';
+    font-size: 50px;
+    line-height: 74.9%;
+    text-align: center;
+    color: #031412;
+}
+
+.block {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    position: absolute;
+    width: 87px;
+    height: 50px;
+    left: 0;
+    top: 250px;
+    transform: translateY(-50%);
+    background-image: url(./img/лефт.png);
+    background-size: contain;
+}
+
+.right {
+    position: absolute;
+    width: 87px;
+    height: 50px;
+    right: 0;
+    top: 250px;
+    transform: translateY(-50%);
+    background-image: url(./img/райт.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dots {
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    top: 618px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(./img/точки.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    position: absolute;
+    width: 327px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 660px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    font-family: 'Mont 700';
+    font-size: 18px;
+    line-height: 96.4%;
+    color: #FFFFFF;
+    border: none;
+}
+
+.wrap {
+    width: 447px;
+    height: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.teaPort {
+    width: 446px;
+    height: 491px;
+    object-fit: contain;
+}
+
+.miniWrap {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    width: 257px;
+    height: 38px;
+    font-family: 'Mont 600';
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+}
+
+.price {
+    width: 128px;
+    height: 29px;
+    font-family: 'Mont 700';
+    font-size: 30px;
+    line-height: 96.4%;
+    color: #031412;
+}
+
+.wrapper {
+    width: 100%;
+    height: 959px;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+.title2 {
+    width: 208px;
+    height: 37px;
+    font-family: 'Lighthaus';
+    font-size: 50px;
+    line-height: 74.9%;
+    text-align: center;
+    color: #031412;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block2 {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.left2 {
+    position: absolute;
+    width: 87px;
+    height: 50px;
+    left: 0;
+    top: 300px;
+    transform: translateY(-50%);
+    background-image: url(./img/лефт.png);
+    background-size: contain;
+}
+
+.right2 {
+    position: absolute;
+    width: 87px;
+    height: 50px;
+    right: 0;
+    top: 300px;
+    transform: translateY(-50%);
+    background-image: url(./img/райт.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dots2 {
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    top: 638px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(./img/точки.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn2 {
+    position: absolute;
+    width: 327px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 680px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    font-family: 'Mont 700';
+    font-size: 18px;
+    line-height: 96.4%;
+    color: #FFFFFF;
+    border: none;
+}
+
+.wrap1 {
+    width: 447px;
+    height: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.teaPort1 {
+    width: 446px;
+    height: 491px;
+    object-fit: contain;
+}
+
+.miniWrap1 {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text1 {
+    width: 257px;
+    height: 38px;
+    font-family: 'Mont 600';
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+}
+
+.oldPrice {
+    width: 128px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price1 {
+    width: 128px;
+    height: 29px;
+    font-family: 'Mont 700';
+    font-size: 30px;
+    line-height: 96.4%;
+    color: #9B0000;
+}
+
+.old {
+    font-family: 'Mont 600';
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+    opacity: 0.3;
+}
+
+.miniBlock {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left3 {
+    position: absolute;
+    width: 87px;
+    height: 50px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(./img/лефт.png);
+    background-size: contain;
+}
+
+.right3 {
+    position: absolute;
+    width: 87px;
+    height: 50px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(./img/райт.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dots3 {
+    position: absolute;
+    width: 56px;
+    height: 12px;
+    top: 528px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(./img/точки.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.aboutUs {
+    position: absolute;
+    width: 525px;
+    height: 37px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    font-family: 'Lighthaus';
+    font-size: 50px;
+    line-height: 74.9%;
+    text-align: center;
+    color: #031412;
+}
+
+.items {
+    width: 446px;
+    height: 332px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 31px;
+    padding: 21px 30px;
+}
+
+.ivan {
+    width: 63px;
+    height: 63px;
+    background-image: url(./img/Union.png);
+    background-size: contain;
+}
+
+.ivanName {
+    width: 170px;
+    height: 24px;
+    font-family: 'Mont 600';
+    font-size: 25px;
+    line-height: 96.4%;
+    color: #031412;
+}
+
+.ivanInfo {
+    width: 376px;
+    height: 133px;
+    font-family: 'Mont italic';
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #031412;
+}
+
+.ivanData {
+    width: 50px;
+    height: 19px;
+    font-family: 'Mont 700';
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #031412;
+}
+
+.bigWrap {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastTitle {
+    position: absolute;
+    width: 650px;
+    height: 37px;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+    font-family: 'Lighthaus';
+    font-size: 50px;
+    line-height: 74.9%;
+    text-align: center;
+    color: #031412;
+}
+
+.grid {
+    width: 1428px;
+    height: 484px;
+    display: grid;
+    grid-template-columns: repeat(4, 308px);
+    grid-gap: 49px;
+    margin-top: 80px;
+}
+
+.gridBlock {
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gridImg {
+    width: 76px;
+    height: 76px;
+    background-image: url(./img/звезда.png);
+    background-size: contain;
+}
+
+.gridTitle {
+    font-family: 'Mont 700';
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+}
+
+.gridInfo {
+    width: 308px;
+    height: 57px;
+    font-family: 'Mont 400';
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #031412;
+}
+
+.gridHref {
+    width: 123px;
+    height: 19px;
+    background-image: url(./img/блок.png);
+    background-size: contain;
+}
+
+.bottom {
+    width: 100%;
+    height: 375px;
+    background-image: url(./img/bgfoot.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.imgBlock {
+    height: 149px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 265px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.copper {
+    width: 175px;
+    height: 47px;
+    background-image: url(./img/copper.png);
+}
+
+.copperText {
+    width: 214px;
+    height: 38px;
+    font-family: 'Mont 300';
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #ADADAD;
+}
+
+.a {
+    height: 19px;
+    font-family: 'Mont 200';
+    font-size: 14px;
+    line-height: 134.4%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.textBlock {
+    height: 190px;
+    width: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 980px;
+    transform: translateY(-50%);
+}
+
+.texttitle {
+    width: 101px;
+    height: 17px;
+    font-family: 'Mont 700';
+    font-size: 18px;
+    line-height: 96.4%;
+    color: #FFFFFF;
+}
+
+.textclick {
+    font-family: 'Mont 200';
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #FFFFFF;
+}
+
+.textBlock2 {
+    height: 221px;
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 53%;
+    left: 1217px;
+    transform: translateY(-50%);
+}
+
+.textBlock3 {
+    position: absolute;
+    width: 157px;
+    height: 172px;
+    left: 1446px;
+    top: 47%;
+    transform: translateY(-50%);
+    background-image: url(./img/Group\ 206.png);
+    background-size: contain;
+}
+
+.topImg {
+    position: absolute;
+    height: 116px;
+    width: 50px;
+    right: 100px;
+    background-image: url(./img/Rectangle\ 3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* transform: rotate(90deg); */
+    bottom: 0;
+}
